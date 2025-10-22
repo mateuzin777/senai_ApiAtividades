@@ -29,8 +29,9 @@ namespace Exo.WebApi.Contexts
             }
         }
         
-        // DbSet para o seu modelo Projeto (o restante do código da página 6)
-        public DbSet<Projeto> Projetos { get; set; }
+    // DbSet para os modelos
+    public DbSet<Projeto> Projetos { get; set; }
+    public DbSet<Usuario> Usuarios { get; set; }
     }
 }
 
